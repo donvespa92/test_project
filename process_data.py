@@ -7,3 +7,6 @@ with open('mydata.dat') as fp:
 
 for item in raw_data:
     print (item)
+
+
+print ('Hello')
