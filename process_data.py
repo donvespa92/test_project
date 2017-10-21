@@ -5,4 +5,5 @@ with open('mydata.dat') as fp:
         line = line.rstrip()
         raw_data.append(line)
 
-
+for item in raw_data:
+    print (item)
