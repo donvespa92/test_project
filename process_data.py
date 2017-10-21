@@ -1,0 +1,8 @@
+raw_data = []
+
+with open('mydata.dat') as fp:
+    for line in fp:
+        line = line.rstrip()
+        raw_data.append(line)
+
+
